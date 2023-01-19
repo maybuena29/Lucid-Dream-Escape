@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
     public AudioSource heartBeat;
     public AudioSource breathe;
     public AudioSource audioWind;
+    public AudioSource background_sound;
     public float beatMultiplier;
     public float windPitchMultiplier;
 
@@ -59,9 +60,9 @@ public class PlayerController : MonoBehaviour
         audioWalk.pitch = Input.GetKey(KeyCode.LeftShift) ? 1.75f : 1f;
 
         heartBeat.enabled = true;
-        // heartBeat.pitch = Mathf.Clamp(Mathf.Abs(rb.velocity.y * beatMultiplier), 0f, 2f) + Random.Range(-.1f, .1f);
         breathe.enabled = true;
-        // breathe.pitch = Mathf.Clamp(Mathf.Abs(rb.velocity.y * beatMultiplier), 0f, 2f) + Random.Range(-.1f, .1f);
+        background_sound.enabled = true;
+
         audioWind.enabled = true;
         audioWind.pitch = Mathf.Clamp(Mathf.Abs(rb.velocity.y * windPitchMultiplier), 0f, 2f) + Random.Range(-.1f, .1f);
 
