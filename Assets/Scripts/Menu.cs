@@ -9,8 +9,8 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
-    public void Rertry(){
-        SceneManager.LoadScene(1);
+    public void Retry(){
+        SceneManager.LoadScene(0);
     }
     public void QuitGame()
     {

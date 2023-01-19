@@ -5038,7 +5038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3360250f6c1046b41b585094065590a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelIndex: 3
+  LevelIndex: 4
 --- !u!65 &946888251
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5050,8 +5050,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.7238085, y: 1, z: 0.99999976}
-  m_Center: {x: 1.3619034, y: 0, z: 0}
+  m_Size: {x: 7.823791, y: 1, z: 0.99999976}
+  m_Center: {x: 3.4118922, y: 0, z: 0}
 --- !u!23 &946888252
 MeshRenderer:
   m_ObjectHideFlags: 0
