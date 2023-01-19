@@ -358,6 +358,7 @@
 "Assets/PortalsPackage/ScriptsAndShaders/PortalFX_UVAnimation.cs"
 "Assets/PortalsPackage/ScriptsAndShaders/PortalsFX_RandomMoves.cs"
 "Assets/Scripts/FinishTrigger.cs"
+"Assets/Scripts/Menu.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Portal.cs"
 -langversion:9.0
